@@ -1,0 +1,575 @@
+commit_hash,author,date,message,files_changed,lines_added,lines_deleted
+33850c0ebd23ae615e6823993d441f46d80b1ff0,Armin Ronacher,2010-04-06 13:12:57+02:00,Initial checkin of stuff that exists so far.,15,984,0
+b15ad394279fc3b7f998fa56857f334a7c0156f6,Armin Ronacher,2010-04-06 13:23:18+02:00,Added setup.py and README,2,36,0
+4ec7d2a0d8eac4f915dc0d38a886cd57045bb0c4,Armin Ronacher,2010-04-06 16:02:14+02:00,"Started working on documentation.
+
+So far just the stable parts :)",9,641,9
+44b42e0fbd93d86e0f4e929bda8e5fb63e81035d,Armin Ronacher,2010-04-06 16:16:34+02:00,Added a README file for MiniTwit.,1,21,0
+3b36bef2e6165bb4dad73d17f23ee1879e99f497,Armin Ronacher,2010-04-08 19:03:15+02:00,"Improved documentation, added a contextmanager for request binding",4,198,28
+4aa76212d1be9b17a57249549c2a73fb10b6cda8,Armin Ronacher,2010-04-09 01:32:39+02:00,Updated documentation.  Starting to look pretty good,6,359,4
+625eba4bb403296a8bbc1e72cc9cf4a5126f6c02,Armin Ronacher,2010-04-09 12:49:01+02:00,Heavily improved quickstart section.,1,224,0
+4edec48b74dbb9d571e927b69b24c30ec0624975,Armin Ronacher,2010-04-09 13:13:39+02:00,Added installation docs,1,98,1
+727c701686c18c4a27ca523eb0c5862d497be24e,Armin Ronacher,2010-04-09 13:40:05+02:00,And finished documentation for most parts.,5,199,4
+a9d4ea81da28ee9c894bf9d45adc4cfa9d52fddc,Armin Ronacher,2010-04-09 13:46:12+02:00,Flashing -> patterns documentation,2,86,68
+7d6b8e9ab3e738d69e39ad53a7c0f6a552d5284a,Armin Ronacher,2010-04-09 13:56:47+02:00,Documented non-decorator uses of registation.,1,31,5
+3d719f35f5c1ee4ce3dc01fb2167ef49c0180cf6,Armin Ronacher,2010-04-10 15:49:15+02:00,"Added docs, fixed some bugs I introduced last commit",13,808,10
+9dfab582d065521e9350327801ed2c5ced1c8fa1,Armin Ronacher,2010-04-10 16:00:13+02:00,Updated README,1,14,1
+8e9bd5f009bb8756a2a7d76a4b792323eeee49d6,Armin Ronacher,2010-04-10 16:01:14+02:00,Fixed a typo,1,1,1
+4e1b3e1134eb478563bc434d794085d0a412cb84,Armin Ronacher,2010-04-10 17:26:49+02:00,set secret key :),1,3,0
+05f36c7f7e2df36ee28f90d99632162579b1287c,Armin Ronacher,2010-04-11 02:20:10+02:00,Heavily improved documentation,10,486,44
+1fff3e598126a084348ec2c112fdd3bc6b9a1ee0,Armin Ronacher,2010-04-11 02:42:13+02:00,Fixed a doc display bug and setup.py workaround for dev version.,3,10,8
+574e81f9c8bbdc41958e1e7a7613633b091101f8,Armin Ronacher,2010-04-11 02:46:44+02:00,Fixed a bug in setup.py,2,5,2
+df929c6c77ea5490a969275e45075c29711a498c,Armin Ronacher,2010-04-11 02:58:13+02:00,further improved documentation,1,24,0
+8171da88a49eba769d313a51591ee8575be59762,Armin Ronacher,2010-04-11 03:16:42+02:00,Described HTTP methods,1,57,0
+85ca089dde8814c4a42ad4574cddce25d60e5e25,Armin Ronacher,2010-04-11 03:18:36+02:00,might -> must,1,3,2
+4e7aa9e7f7a86ee0ea4b6801694c13151518cb52,Armin Ronacher,2010-04-11 03:22:26+02:00,Linked HTTP,1,11,8
+4671429a509094f36e2294055340197091d39979,Armin Ronacher,2010-04-11 03:41:01+02:00,"Added a security section to the foreword and a footnote to the g
+variable",4,48,3
+d78b04a3fca8d8887382606897d4a97e55062fda,Armin Ronacher,2010-04-11 03:43:15+02:00,Footnotes are 100% in width,1,1,0
+6a3a046f55755f0691568431e68a8bfea8d89df0,Armin Ronacher,2010-04-11 03:53:38+02:00,Another doc improvement,1,5,1
+0b8e01b4450d0ba8cb65751d866568fddc155fa4,Armin Ronacher,2010-04-11 04:00:17+02:00,Linked escape,1,3,0
+03168a5d53457fdb8676a4ac9fca0f76a23c6852,Armin Ronacher,2010-04-11 17:58:45+02:00,Removed the useless apishowcase example,7,30,89
+f2dc38cda61f76c64b97ab9f730accc986a4b188,Armin Ronacher,2010-04-11 18:45:06+02:00,Added tests for minitwit.  Testing with Flask is awesome,4,153,4
+ef524f2cfd65377b3b9ce896e7a710472b13c0f6,Armin Ronacher,2010-04-11 18:47:32+02:00,No need for the closing import,1,0,1
+03148dba6b26a2694da1d466584f50189c52e7b3,Armin Ronacher,2010-04-11 19:18:40+02:00,Added testing documentation,3,41,12
+2f5a4f8dbc832b0daebcd66ea8b3969589191fa7,Armin Ronacher,2010-04-12 00:14:59+02:00,Doc updates and typo fixes,4,127,11
+51c9829a9cdfa2bf301431f686d7a404cc7c5083,moraes,2010-04-12 08:15:35+08:00,Fixed couple of errors in docs.,3,4,4
+36071ca1f42a26ef327e9d14e4909a8c92cd4fae,Justin Quick,2010-04-12 22:55:48+08:00,added in example tornado and gevent usage for flask integration,1,39,0
+a01e8b49ca66608f0bd46134ff02deeb5724c799,Armin Ronacher,2010-04-12 19:52:18+02:00,Fixed a documentation error and implemented template context processors.,1,28,4
+de03143f6ecf9a36dd32f16f07309c64d4de03b0,Armin Ronacher,2010-04-12 20:19:16+02:00,Added some basic tests for flask itself,1,74,0
+4affedec356ad8c9e6a107578f03fc7f5c615064,Armin Ronacher,2010-04-12 20:39:52+02:00,Testing URL generation,1,8,0
+959b5df00431c436474c5abca304e631c0de7721,Armin Ronacher,2010-04-13 01:08:52+02:00,Flask can depend on Jinja2 and Werkzeug now that they are relased.,1,2,3
+a42728568e18bedf588be2357b56021ab85b9fad,Armin Ronacher,2010-04-13 01:42:31+02:00,Improved Flask README regarding Jinja2 and Werkzeug,1,4,4
+8009bd986940378bba1399dbfce90d03e441467b,Armin Ronacher,2010-04-14 02:17:55+02:00,Fixed the mod_wsgi docs. Thanks Graham,1,1,1
+08f1f0dc32004fae01cf96d1eed84e6461e698e5,Armin Ronacher,2010-04-14 02:42:12+02:00,Added more Flask tests,5,197,82
+ca520fb7e4c29afccc637e61c11429a0f3e8d5ad,Armin Ronacher,2010-04-14 14:11:00+02:00,"Static files are active in the WSGI app now, not just the server.",3,15,5
+2d9bb692728fd76b19e467499caa4f5fcb07aede,Armin Ronacher,2010-04-14 15:16:38+02:00,Flask now runs without the presence of pkg_resources as well.,1,24,3
+c33675f0251071ea47ce166b81ce8c637842f091,Armin Ronacher,2010-04-14 16:44:29+02:00,"Added mini blogging application as Flask example.
+
+This should become the tutorial.",7,241,0
+fc94599285aa1aec50b3c9426697249e55edda0a,Armin Ronacher,2010-04-14 16:47:53+02:00,Removed useless imports and added README,2,26,2
+1d8432ebfd1637eacab79a15e9b7963bf061371c,Armin Ronacher,2010-04-14 17:08:38+02:00,Can't believe I forgot that future import.,1,1,0
+c4f5c2fb9afc1679c085500830bd53fab93ad885,Armin Ronacher,2010-04-14 17:09:34+02:00,Fixed a typo,1,1,1
+1246f4088a4fdc00a79f8029ff5d77bfe4fc9b14,Armin Ronacher,2010-04-15 02:21:46+02:00,First part of the tutorial.  Many explanations missing but it's a start.,9,394,14
+6dd92ae4b32c336564231e10db12458a8b9261ca,Armin Ronacher,2010-04-16 02:03:45+02:00,Beefed up the tutorial,7,306,92
+40e0024d7b87150ed694829a5335bd2435962225,Armin Ronacher,2010-04-16 02:14:54+02:00,"Added screenshot of the debugger to Flask docs.  Flask now runs from the
+shell again.",3,16,2
+7b5015010bc8c2a2d56c7c50b37e5b9facdad102,Armin Ronacher,2010-04-16 02:27:37+02:00,"Preserve the request context in debug mode.
+
+This makes it possible to access request information in the interactive
+debugger.  Closes #8.",1,11,7
+fb2d2e446bdd806ea3de7b869c7371e2dae57a23,Armin Ronacher,2010-04-16 11:03:16+02:00,"request_init -> before_request and request_shutdown -> after_request
+
+This fixes #9.",6,30,29
+26f86b1d4954dd7512684130ee803b42eca8d72e,Armin Ronacher,2010-04-16 12:21:31+02:00,Restructured documentation a bit.,2,213,8
+b608785801ce819037cb6cca04c70fd398519c08,Armin Ronacher,2010-04-16 12:23:46+02:00,Recentered README,1,3,3
+61d07b8be9beae54d1c367adfc845dcf30a1512a,Armin Ronacher,2010-04-16 12:29:52+02:00,Added note about decorators to becomingbig.,1,4,1
+f54c4fd04f326d94684c7fcbf12df5cecae653c4,Armin Ronacher,2010-04-16 13:15:44+02:00,Fixed wording for circular imports,1,1,1
+6418551efb1d24320c261b1e24c186d5394e6dcf,Armin Ronacher,2010-04-16 13:29:01+02:00,More typo fixes,2,5,4
+7c9303b7502403c372171e1e045433b57259a56b,Armin Ronacher,2010-04-16 13:31:48+02:00,More typo fixes,1,2,2
+6d556acb3fcaa6eeff4bda8cf704ad5f0cf5b5ac,Armin Ronacher,2010-04-16 13:42:47+02:00,"added coming soon to parts of the docs, linked scoped_session",2,16,2
+5348eff4457a528cd605bbbd5e0152c282819962,Armin Ronacher,2010-04-16 13:45:52+02:00,fixed headers,1,2,2
+855e7e9327c0095f39b34bd56b08aa63c87f9dfd,Armin Ronacher,2010-04-16 14:12:31+02:00,Added license file,1,31,0
+f769e15fecf6e06c190133d85a3de6b703e4d1a1,Armin Ronacher,2010-04-16 14:17:24+02:00,Added website sources,2,56,0
+aae5de730113e843864c120cc0453efc0a90b49f,Armin Ronacher,2010-04-16 14:20:02+02:00,-x on files,2,0,0
+0bb8b4f9a1c61fcf473e5ca7a10cc3ed4f30766f,Armin Ronacher,2010-04-16 14:24:12+02:00,Beefed up setup.py,1,50,0
+8605cc310d260c3b08160881b09da26c2cc95f8d,Armin Ronacher,2010-04-16 14:25:24+02:00,ignore dist folder,1,1,0
+9fbf9a062c11904b5022a5aa7941449e31340c32,Armin Ronacher,2010-04-16 14:32:59+02:00,head is 0.2-dev,1,1,1
+791cdb28f593d4d7649d88407fcd193834512219,Armin Ronacher,2010-04-16 14:33:12+02:00,Fixed capitalization on website,1,2,2
+5310fc38227b1907cb541f4a30ea8dfef46c2e19,Armin Ronacher,2010-04-17 14:10:47+02:00,"Session falls back to a dummy object now if secret_key is missing.
+
+This makes it possible to still read-only access the empty session but
+requires the secret key to be set for write access.  The error message
+raised explains that.  This closes #10.",2,34,3
+b9cae3564ad31876d977c24a09d760e77ca992f3,Armin Ronacher,2010-04-17 14:24:12+02:00,Reordered deployment docs,1,127,126
+74862dcbca052ea0a994da3f507c00e9cc18821c,Armin Ronacher,2010-04-17 14:30:28+02:00,Added makefile target for website and doc updating.,1,6,0
+0b9c2b5eb1b604cd76d9252e8e9628df731ea572,Armin Ronacher,2010-04-17 14:32:52+02:00,removed refactoring leftover,1,0,1
+fe6c279df12294e590e87705b0ba8728a3ed54c4,Armin Ronacher,2010-04-17 18:14:42+02:00,Synched tagline :),1,1,2
+325dfa2469f86e03187b6d9e6aee4745b702c496,Armin Ronacher,2010-04-17 20:52:37+02:00,Larger fonts in the docs,3,40,16
+b4cd70d054a1514adaed893663cfa22b73114d1e,Armin Ronacher,2010-04-18 03:07:08+02:00,Updated website,3,47,0
+42dd94b7565052120423dbd86a5ab0f96938f8cc,Armin Ronacher,2010-04-18 03:08:16+02:00,Fixed title.,1,1,1
+bcf347fe8db124242da30b97c7e570f28c273d26,Armin Ronacher,2010-04-18 13:15:00+02:00,New style for the documentation.  Looks more like the website now.,15,601,569
+88ea383394b47278779031b47de23fbd5ba89dbe,Armin Ronacher,2010-04-18 13:17:21+02:00,Less flashy color for highlights.,1,4,0
+fdf4d79bdc3a5872e99b4e9c9bc0e29cfd195cb4,Armin Ronacher,2010-04-18 13:19:57+02:00,Normalized line heights.,2,3,2
+764b4e4f7dbe48366d7f01d8bd0c56f4e76b79ee,Armin Ronacher,2010-04-18 13:29:21+02:00,dirhtml > html for websites,1,1,1
+123a1ad019a842a07a84aace66fd7a33f6f68cb9,Armin Ronacher,2010-04-18 13:35:40+02:00,Breaking docs up into smaller pieces,8,443,445
+42a46ed09b745c0560de354c0cb236295000f296,Armin Ronacher,2010-04-18 13:58:48+02:00,Fixed homepage links,1,4,4
+63593d281b7358a86a808cc0bf5e47107316403d,Armin Ronacher,2010-04-18 14:39:27+02:00,removed unused import,1,0,1
+ab5492418694b5cc14601a953084d61f47785ea4,Armin Ronacher,2010-04-18 14:56:08+02:00,Fixed a font name.,1,2,2
+190059c8f01c6f75243824e765d08a7cce386eda,Armin Ronacher,2010-04-18 15:44:06+02:00,Added support for macro pulling and documented certain design decisions.,6,187,1
+bf52a17902cdbc300ee91ec1b2e8d2b7890ba35c,Armin Ronacher,2010-04-18 16:29:41+02:00,Removed useless code,2,0,2
+13090389365184fc2291e2cc69fb9b2af5426585,Armin Ronacher,2010-04-18 17:32:23+02:00,updated README,1,5,3
+94cf620914615b991063f00314ea1c8da9790c99,Armin Ronacher,2010-04-18 18:29:55+02:00,Updated SQLAlchemy docs.,1,92,2
+100776147a063dcf53f74678b045ac0f5d6386d4,Armin Ronacher,2010-04-18 18:40:52+02:00,Added troubleshooting section to the tutorial,1,6,0
+3491465d55f093a498f2f496cd33bebba137518c,Armin Ronacher,2010-04-18 20:43:18+02:00,No sudo for windows users.,1,2,1
+0770f5c6375e3e45fa3ac918217df5d885176173,Armin Ronacher,2010-04-18 23:37:03+02:00,Removed two unused imports.,1,2,3
+73a47a0db1a181bb305684115d3dacded0c5a58b,Armin Ronacher,2010-04-18 23:42:11+02:00,Removed unused stuff from minitwit and fixed a bug.,1,1,3
+ce18d4575dd8468878668d777d83448eeae4fd0d,Armin Ronacher,2010-04-19 02:22:59+02:00,Added WTForms documentation.,6,115,10
+976e792336fa6c4696f534ac1d537d2a86a75e72,Armin Ronacher,2010-04-19 02:24:02+02:00,Added links for SQLAlchemy and WTForms.,2,8,0
+56675b3bade603a458d01443bda8070ca0489005,Armin Ronacher,2010-04-19 02:25:31+02:00,Fixed indentation of an example.,1,6,8
+166f5ed254d829b2d87fca241e1a22b0a64fff1c,Armin Ronacher,2010-04-19 02:28:05+02:00,Forgot to link the website.,1,2,1
+84899948be190a5e180fdccb25e6d7a8498fee7c,Armin Ronacher,2010-04-19 02:45:44+02:00,Corrected order of the tutorial,1,1,1
+a50a87c4ca7f44821e9561ae6b69300b8809c46c,Armin Ronacher,2010-04-19 10:37:10+02:00,ScriptName -> ScriptAlias,1,1,1
+c64a4e0befc0718500c544f5c847d6632b8fb598,Armin Ronacher,2010-04-19 11:23:44+02:00,Break up deployment docs into separate documents.,7,318,308
+6e2be6a0b3aba4ab49cf3ed1a10ac13c6b771aba,Armin Ronacher,2010-04-19 15:39:07+02:00,Added JSON Support and started working on jQuery docs,7,254,9
+a99e408bd109783561d408ef34c286cdd9b51845,Armin Ronacher,2010-04-19 15:59:16+02:00,Finished jQuery example documentation.,3,119,13
+f878919753a909e45b2d5448aa175f4f9129ff24,Armin Ronacher,2010-04-19 16:01:14+02:00,With -> with in headline,1,1,1
+3d320176813e87b8dccbbbc807133dfe6ce0bcde,Armin Ronacher,2010-04-19 17:03:08+02:00,Added instructions about how to run the latest development version.,1,38,0
+07e515b071e32e1b22e9992cedabeb082a8cde6c,Armin Ronacher,2010-04-19 17:05:24+02:00,Leaving -> living ....,1,2,2
+ade490514dd6d83adc7610f69f9c4cd68df47110,Armin Ronacher,2010-04-19 18:51:04+02:00,"Fixed a security problem caused by changed simplejson semantics.
+
+Notice: this was never in a release version of Flask.",4,16,2
+36f105c2932af842de5d18899783f33078415c7f,Armin Ronacher,2010-04-19 18:56:12+02:00,Removed possible bashism. source -> .,1,7,3
+3088a9371e065808fd0091741f62bc242bcab1f9,unknown,2010-04-20 00:29:56+08:00,"Make it easier to associate a rule, endpoint and view_function
+This resolves http://github.com/mitsuhiko/flask/issues/issue/11",2,33,3
+5acc491c94262912baa30a4cffc780a46b7faf56,cgrinds,2010-04-20 01:11:58+08:00,"Refactored the @route decorator to use the new add_url_rule method.
+Tagged add_url_rule with versionadded of 0.2",1,3,2
+95750b3287bfa21fbb706f10a3a9fbcef01c089e,Armin Ronacher,2010-04-19 23:49:02+02:00,Documented some routing converter possibilities.,3,36,6
+06ec917ddedc618944670b39ccd5f4cb862882b2,Armin Ronacher,2010-04-19 23:54:38+02:00,"Only escape backslashes if they follow ""<"" in JSON dumping for
+templates.",1,1,1
+50a331307114a641d1d9447453f8fddc52fe680f,Armin Ronacher,2010-04-20 01:35:22+02:00,Fixed typo in form docs,1,1,1
+4ff9493e5765f3d2c2fd2dd1882791a75ad6fc68,Armin Ronacher,2010-04-20 01:37:51+02:00,POST -> post in HTML,1,1,1
+a7ff9dbddd5f861463051601177442e98aae84bf,Chris Edgemon,2010-04-19 23:25:51-05:00,Proofreading the documentation,8,58,58
+9f0b2429d638e54cb534b555c393d0770dfc1a8f,Armin Ronacher,2010-04-20 10:51:36+02:00,"The testsuite skips JSON tests now is not available and runs the example
+tests as well.",1,22,1
+1404a85bc554f96bff5463e6eadb14662b945f2e,Armin Ronacher,2010-04-20 11:22:20+02:00,Fixed WTForms example.,1,3,3
+715f64d2afef0e5b9800f0e0fb0eb9c892e1573a,Armin Ronacher,2010-04-20 13:01:10+02:00,Some more documentation updates.,2,32,12
+3a1e51865786474c44a04c0d422515047dd27223,Armin Ronacher,2010-04-20 13:29:54+02:00,Fixed typo and added AUTHORS file and license text to docs.,5,47,11
+268302fc68c35abd555a8c2d2755f14c96e1401d,Armin Ronacher,2010-04-20 14:22:34+02:00,Changed link to license.,1,1,1
+9f6bc93e4de36fc209eb1203845e9505df1ca379,Armin Ronacher,2010-04-20 15:12:16+02:00,"Fixed XSS problem by escaping all slashes in JSON.
+
+This also probes simplejson first to figure out if it escapes slashes
+which it did in earlier versions.",2,13,1
+3c821a0fa45082bcec73dfb08662fb1de5263c48,florentx,2010-04-20 18:40:58+02:00,Fix typos and remove unused import.,6,15,14
+75057bb4112d16acc7ed5dafce6a8168b343fd78,florentx,2010-04-20 18:44:54+02:00,Slightly faster _tojson_filter.,1,9,10
+eae44e465b4bdd9440dbfa6e0c5bc45fd2c60ed8,florentx,2010-04-20 18:48:49+02:00,Typo in README,1,2,2
+af3b73f70d5fce72181530d384519ae31d77c772,Armin Ronacher,2010-04-20 19:03:18+02:00,Tiny refactoring,1,5,9
+3053fcdb0d6189ad1deca6fcfa16443dad4baf8c,Armin Ronacher,2010-04-20 20:01:00+02:00,"Make the example tests pass on Windows.
+
+Also updated the documentation regarding that.",3,37,17
+f6b9efc1e9b94382b877c0d1ebe87956b78d012f,Armin Ronacher,2010-04-20 20:03:03+02:00,Added missing os import.,1,2,1
+260b4dfe61cd35373eb4993453b500e1db71a753,Armin Ronacher,2010-04-20 20:21:01+02:00,"Added changelog, restructured docs a bit.",3,35,4
+00f87f679cdd63b642675d86d073882fb8b19430,Armin Ronacher,2010-04-20 21:44:52+02:00,flask uses 127.0.0.1 as host by default now. stupid chrome.,2,3,16
+9cf2ea2abc5243d50c87612714904c6cb033f7cc,Armin Ronacher,2010-04-20 21:45:36+02:00,Documented hostname change.,1,1,0
+5876a8fd96efa01958904ca0796eb4018222bf25,cgrinds,2010-04-21 02:33:32+08:00,Merge more upstream changes,1,14,18
+9d340ad7477774a19a7bdffc83d6cb8cb3e05edc,florentx,2010-04-20 22:46:36+02:00,"Fix a doc oversight, and revert 5876a8fd.",2,3,2
+c0d3b6c3710025abb482b30d2f2b6e39a6934fa9,florentx,2010-04-20 22:53:38+02:00,Merge.,0,0,0
+7cf5a9bf6e34fc57f82e560f01c408fbe603e9d4,florentx,2010-04-21 00:40:43+02:00,"Use a tuple to store _flashes, and simplify the flask.Request class.",1,3,7
+b6e73305392c9de052e51cca6fae8fee12ae231e,florentx,2010-04-21 01:23:09+02:00,Use setdefault() because it sets session.modified correctly.,2,14,2
+f014ce29a7cd5a3ccfabd61e7d66e017ed958e25,florentx,2010-04-21 04:46:36+08:00,"Fix a doc oversight, and revert 5876a8fd.",2,3,2
+3eacc1d06816b2544e0242665fe909b24b027b21,florentx,2010-04-21 06:40:43+08:00,"Use a tuple to store _flashes, and simplify the flask.Request class.",1,3,7
+dbe0df756bf587b242f2406bef9e7e8ef26f0813,florentx,2010-04-21 07:23:09+08:00,Use setdefault() because it sets session.modified correctly.,2,14,2
+7e8019565f79e157fcc13cf285247070d69ef889,Armin Ronacher,2010-04-21 10:37:05+02:00,Added florentx to the AUTHORS file,1,1,0
+d73be4b709ab881ae15b9bd1064b16820f98a51b,Armin Ronacher,2010-04-21 17:57:25+02:00,Merge branch 'florentx-fork',0,18,14
+3261357ba7f59e2eabeb96127b6253d1466b4db0,Armin Ronacher,2010-04-21 18:39:25+02:00,Removed website from main branch.  Makes no sense to be there,6,0,131
+1cb75df8f1f9e7a768254fe2c9e2997f21152665,Armin Ronacher,2010-04-21 18:39:51+02:00,Add leftovers from website branch to gitignore,1,1,0
+ebb07a06567d72acf47b3ee5553053216f978305,Armin Ronacher,2010-04-21 21:10:57+02:00,Better English.,1,1,1
+be15340e0f65e8785aff3033f0b2732ae31c6b81,Armin Ronacher,2010-04-21 21:47:45+02:00,Added mailinglist link to the README,1,5,0
+dc3f13df54ba91649ecec2bdee6c24ca31a400a8,Armin Ronacher,2010-04-23 12:17:12+02:00,Corrected validator usage in the wtforms docs.,1,5,3
+88f671aaaef334caf3231095b119cac094ff5ffb,Armin Ronacher,2010-04-23 16:04:54+02:00,Another try for #12,1,42,0
+a862ead5f22f9d4592c1c85bda285a4ded59b631,Armin Ronacher,2010-04-23 16:30:04+02:00,Warn on None responses.,2,20,1
+444e6425312a16589130ff36f2830b6f97fbbd4f,Armin Ronacher,2010-04-23 16:44:49+02:00,extended URL generation,1,24,16
+e0148a00c0f468784052926f80e8112be7686470,Armin Ronacher,2010-04-23 17:01:20+02:00,"Basic module support is working, but does not look very nice.",2,66,14
+5c52fe980eda6065edcc39e6dd346636b1c40768,Armin Ronacher,2010-04-23 17:10:22+02:00,Added request/response processing based on modules.,2,44,6
+2f181e19496a1fe693d9b20260fe961bb406c53b,Armin Ronacher,2010-04-23 17:16:59+02:00,Removed unused package_name attribute,1,1,2
+67f4b0f31538832f06b9351d15e30c85f449ac7e,Armin Ronacher,2010-04-24 17:07:16+02:00,"Modules are now instanciated with the package name.
+
+This makes it possible to load resources from the folder the module is
+located in.",2,96,73
+c0a9f5d0c4f09dbe8b744609552cbbfa9f14fbc0,Armin Ronacher,2010-04-24 17:35:25+02:00,Documentation update for the flask module support.,2,87,6
+ef34638f5d24c07a5582cbb60755fd4dfbec9a79,Armin Ronacher,2010-04-24 17:46:06+02:00,"Updated docs for external server information.
+
+This fixes #14.",2,22,9
+5144d3b65a564c148e6ea12969303f58d137449b,Armin Ronacher,2010-04-24 17:47:24+02:00,Merge branch 'master' into module-support,0,42,10
+0da39c76e3c67293aef2234b43aff8728d9002eb,Armin Ronacher,2010-04-24 18:30:38+02:00,More documentation updates :),2,129,0
+0c54d0a0e5dfec25cd60329e09622d42905d0969,Armin Ronacher,2010-04-24 20:36:06+02:00,Added pattern for file uploads.,1,1,0
+c21caa5047f966aa5f6a3d0e5e4611abd44ae861,Armin Ronacher,2010-04-24 20:38:50+02:00,Merge branch 'master' into module-support,0,1,0
+85d43079d137c3f15e3ed7a9545ba2db92718194,Armin Ronacher,2010-04-25 03:46:42+02:00,Added missing file (fileupload docs),1,158,0
+58fa088abc0f0e511d934e822f917b796d418bb3,Armin Ronacher,2010-04-25 03:46:42+02:00,Added missing file (fileupload docs),1,158,0
+a9bb965b6dcd931cefdc7dd05fa4c672b5dff69c,Sebastien Estienne,2010-04-25 03:44:11+08:00,add a decorator to add custom template filter,2,48,0
+5c9ef2c44dce5afc99a0b3b539ebaafe9b8ce3c5,Sebastien Estienne,2010-04-25 17:39:19+08:00,the template_filter now expects the parentheses,2,4,17
+4395e9493cc33d49b53889f9f726458f05f1a475,Sebastien Estienne,2010-04-25 20:44:24+08:00,add tests for template_filter using a real template,2,24,0
+36e24299e35cd0c6a593d9eea3130a7737a15eea,Armin Ronacher,2010-04-25 14:54:33+02:00,Merge branch 'master' into module-support,0,59,0
+3ac4ec670c881668aaedb2c3937bae5e10984988,Armin Ronacher,2010-04-25 17:05:25+02:00,Beefed up PDF docs.  They actually look like something now.,6,130,60
+d22428bc8e8c3cf5e6006497cb8164decde31924,Armin Ronacher,2010-04-25 17:08:44+02:00,Updated Makefile to also upload and build pdf docs.,1,4,1
+606b006e2391d12fec5313ce606d82463d7aad07,Armin Ronacher,2010-04-25 17:25:16+02:00,Fixed at least one build warning by renaming files.,4,5,3
+f419937d2c5f2db16a8157a0a061b92c38876649,Armin Ronacher,2010-04-25 17:33:56+02:00,License after API docs,1,11,11
+41de12984495198423cbce73ac059ccee0fbfd30,Armin Ronacher,2010-04-25 17:34:31+02:00,Merge branch 'master' into module-support,0,136,61
+4559e4f0f14272fb4fb31f3bf79bf592a9f781df,Armin Ronacher,2010-04-25 18:55:01+02:00,Added docs on caching and decorators.,3,164,0
+13933eeaf8b6c7685aaf1c769efe97763d64ea0d,Armin Ronacher,2010-04-25 20:31:22+02:00,Merge branch 'master' into module-support,0,164,0
+2ba88eefb54f76fc974181babac07ffc7c1f7e73,unknown,2010-04-26 09:51:02+08:00,Fixed simple typo,1,1,1
+36717b02731ad7d86ba8effbe27e70405e48cd9b,Armin Ronacher,2010-04-27 14:32:09+02:00,Added support for long running sessions.  This closes #16.,4,62,5
+31493850de3d7765d09419aa49b98089f79da3c2,Armin Ronacher,2010-05-02 11:32:14+02:00,Fixed typo in flask quickstart docs. This fixes #21,1,1,1
+f1603d33f266ab24eda604f76632fa604b91e3f9,Armin Ronacher,2010-05-02 11:36:42+02:00,Docs mention query args now.  This fixes #20,2,10,1
+a9284afde97c30d136e8ec675794c7cdcf4ca277,Armin Ronacher,2010-05-02 11:38:40+02:00,Fixed typo in tutorial.  This fixes #19,1,4,5
+8d49440d8b881b2df2c10085a58d3a4e4085147e,Armin Ronacher,2010-05-02 11:45:40+02:00,Added example for context bound objects to the testing docs.  This fixes #18,1,19,0
+a7266ffb90d109f94da96e9eea5f5bb4ff8ddc71,Armin Ronacher,2010-05-02 12:08:17+02:00,Added @templated decorator to the patterns.,1,49,0
+eeb0e949518720ff5302bcf336fc72dea44737d0,Armin Ronacher,2010-05-02 12:09:31+02:00,Fixed merging confict,0,147,13
+7e1db5978c3c7aedcb43d7e2036edc85b0a22a6b,Armin Ronacher,2010-05-02 12:11:04+02:00,Added module support to templated decorator.,1,6,5
+75461c1467bbb2d83ee787bb13f4a338a4b8ad3e,Armin Ronacher,2010-05-02 19:10:44+02:00,Added _external support to url_for,3,7,1
+36f659b82b9079ec8492c1b52a0c0b058ebdf2eb,Armin Ronacher,2010-05-02 19:12:00+02:00,"Merge branch 'master' into module-support
+
+Conflicts:
+	flask.py",0,6,1
+d0eefb01d16bd058172363a9847b5d98ccd1abc9,Armin Ronacher,2010-05-03 12:22:27+02:00,Added link to snippets website to the patterns docs.,1,3,0
+9248a7baca5bc616a60f9b63b525e872fbfddef2,Armin Ronacher,2010-05-03 13:07:30+02:00,None responses fail properly now.  This fixes #24,1,1,4
+ce53d10236279e4798365d991ab4ff838cb16d36,Armin Ronacher,2010-05-03 13:08:00+02:00,Merge branch 'master' into module-support,0,4,4
+dffb3d091c0e42b7254fe88218811c24c0054f7e,Armin Ronacher,2010-05-03 14:39:16+02:00,Removed useless import and adapted tests,2,3,4
+f345af8d9d33e6164747c865c29a72186a470c22,Armin Ronacher,2010-05-03 19:58:07+02:00,Use unicode in SQLAlchemy pattern.,1,3,3
+9da5795d79196e13d802915509180118809042a7,Armin Ronacher,2010-05-03 20:00:42+02:00,Merge branch 'master' into module-support,0,6,7
+67fc46526234653b0a519e9f1e8a05a2c40c80f8,florentx,2010-05-04 01:38:25+08:00,"Fix typo, remove useless import, limit lines to 79 columns.",2,12,9
+720bede150d835be0ffedf4d480482552c90908d,Armin Ronacher,2010-05-03 20:04:38+02:00,Merge branch 'master' into module-support,0,12,9
+bc0c0559e384dc88441775a3907487f4a2b515b4,Armin Ronacher,2010-05-04 11:23:01+02:00,Added OpenID example,9,390,0
+a921aef6c47cecbacef5173f03c07c52e6bc8fea,Armin Ronacher,2010-05-04 11:41:54+02:00,Fixed late binding of url_prefix.  This fixes #29.,2,10,1
+a76aabc7f07c06bd155aace787ed811961aacaa7,Armin Ronacher,2010-05-04 11:42:12+02:00,Merge branch 'master' into module-support,0,390,0
+f6da77e894a939b838e02fb744fa3031abfc96ec,Armin Ronacher,2010-05-04 11:43:19+02:00,Fixed URL examples.  This fixes #30.,1,2,2
+7f837901cb9b3ba7d68ea0a983d86dfc508a9c6d,Armin Ronacher,2010-05-04 11:45:37+02:00,Merge branch 'master' into module-support,0,2,2
+745638e774063de206aae930df71789de13e7c73,Armin Ronacher,2010-05-04 11:51:07+02:00,"Added missing decorators for module wide context processors.
+
+This fixes #25.",2,41,2
+b93ec1465be95a8303cbed99589273f562928103,Armin Ronacher,2010-05-04 16:41:04+02:00,Documented module changes in CHANGES,1,2,0
+da8f88a22eab8195e48fa4ef63c6a3195c860eb0,Armin Ronacher,2010-05-06 13:32:52+02:00,"Removed OpenID example, that's now in flaskext.openid anyways.",9,0,390
+de909b3bdfcebe6bb56e0910ab9f36ad741b68f2,Armin Ronacher,2010-05-07 11:59:12+02:00,Merge branch 'master' into module-support,0,0,390
+34e3d64892f2281aa1b6f6357c345b0a357ee51a,Armin Ronacher,2010-05-07 20:16:00+02:00,"Removed theme, this is now refactored to an external reusable theme.",3,2,352
+4156bd412f2c27359844fbacdae1eb4983c94b8b,Armin Ronacher,2010-05-07 20:23:38+02:00,added theme submodule,2,4,0
+2d87e9bc37ef1ce8f9068fac92783a4fe3d3d382,Armin Ronacher,2010-05-10 11:27:42+02:00,Added support for send_file,4,161,2
+5bb2b55a2880b3c91dbcd6580f3d25ee23c6655c,Armin Ronacher,2010-05-10 11:35:43+02:00,Explicitly set the pygments style for the PDF,1,2,0
+f80e1d3b5ab8e718cc67c814cbfd9aee9c95f45f,Armin Ronacher,2010-05-12 01:02:20+02:00,Added note on send_file security.,1,7,0
+9fa4f94ad885ea98bad8708da6e3e9d15130bb4d,Armin Ronacher,2010-05-12 01:04:35+02:00,"Merge branch 'master' into module-support
+
+Conflicts:
+	CHANGES
+	docs/_themes
+	tests/flask_tests.py",0,177,355
+b0ab127015186e1a2918221ffad8d79ca346faf5,Armin Ronacher,2010-05-12 01:29:25+02:00,Added logo with new slogan,6,106,132
+e0fa5aec3a13d9c3e8e27b53526fcee56ac0298d,Armin Ronacher,2010-05-12 01:30:10+02:00,Updated README as well.,1,1,1
+07581b2404924fe1833f596cfa09caf69868ad5b,Armin Ronacher,2010-05-12 01:32:29+02:00,HEAD is 0.5-dev,2,6,1
+f4269b1fe7fe4c17a99bc7ca0dddafd17bed14e9,Armin Ronacher,2010-05-12 02:06:40+02:00,Updated logo in the PDF docs,1,0,0
+e409bc792d4419ed588afbc60c53b61923c415a7,Armin Ronacher,2010-05-12 02:34:22+02:00,Fixed typo,1,1,1
+93a8ca02822d07cd9f13495f53d27ab22e9adf3a,Ron DuPlain,2010-05-12 09:18:42+08:00,Fixed some minor typos throughout docs.,5,17,17
+a5a41d40aaa9f6ed70b487133ddaf48ceb3d054f,Zhao Xiaohong,2010-05-13 14:42:03+08:00,Fix typo.,1,1,1
+693e4449f87950c764a928690f4437fd6b1b4d7d,Zhao Xiaohong,2010-05-13 15:22:03+08:00,Fix typo.,1,2,2
+35ed617fe41b184288892f733ce07d94391b76b1,Armin Ronacher,2010-05-17 00:37:55+02:00,"Added support for flashing categories.
+
+This fixes #35.",3,60,4
+931dcc4c80331d372d70d7a0a5c8e6d49223e2bf,Armin Ronacher,2010-05-17 01:41:57+02:00,Fixed a doc bug and added distribtue docs.,5,202,1
+b18560fcaa1739c81ff273951ebc6fa3c96fda2b,Armin Ronacher,2010-05-17 01:51:16+02:00,s/will//,1,1,1
+c6e6792cd52022add8455fc792b2ca73c62d3d65,Armin Ronacher,2010-05-17 02:01:23+02:00,Added MANIFEST.in.  This fixes #39,1,4,0
+8c26bec55c13804a01c11931263c9e9e4dab4afb,Armin Ronacher,2010-05-17 12:10:45+02:00,Added links to downloadable docs in the docs,1,5,0
+e7f67e13339073007a84271cce91200bfdb81006,Armin Ronacher,2010-05-17 16:06:30+02:00,Added logging support.,3,132,10
+ea5e654e9e19aab5089f9a71e679bcca11581e86,Armin Ronacher,2010-05-17 22:46:35+02:00,Added a documentation chapter about logging,9,307,11
+267f5f5c82a1ec9966bfb4e1e0c3f7cc4c80ed12,Armin Ronacher,2010-05-17 23:14:50+02:00,Added a pattern for custom error pages.,3,80,0
+54c3df60cd533ea80d347f6715ee84f6a560b5d5,Armin Ronacher,2010-05-17 23:21:22+02:00,Fixed a doc config error,1,2,2
+7bb0e33a687b3498c401a8dbcf7864d543a1817a,Armin Ronacher,2010-05-18 01:31:51+02:00,Changed target audience section,1,7,5
+b26aeba972686b9cb9a9b111e1bc8997e1f259c8,Armin Ronacher,2010-05-18 01:41:42+02:00,Fixed a testcase,1,2,1
+e84140aba2786655bbddcedb363d16de1e285441,Armin Ronacher,2010-05-18 01:41:07+02:00,Started working on config support,1,39,11
+c4cac0abc1a04710a25dcfc8d7f1b2de173546a8,Armin Ronacher,2010-05-18 02:36:50+02:00,Improved configuration support.,3,124,10
+395ff8120ccf055614d03db7d2360ab1182c7c10,Stephane Wirtel,2010-05-18 16:57:26+08:00,Fix typo.,1,2,2
+e52f073e3e76a88e24a8a63eb5491dfc6e537a40,Armin Ronacher,2010-05-18 18:02:28+02:00,Merge branch 'master' of github.com:mitsuhiko/flask,0,2,2
+854e0e26d16408760072308c44b9160a9fb39abd,Armin Ronacher,2010-05-18 18:05:05+02:00,Fixed some documentation issues. This fixes #41.,3,9,3
+a5421c29acb6bfbd095dbeb4c8180a61bd1d4dab,Kenneth Reitz,2010-05-19 10:13:31+08:00,Added documentation for Gunicorn,1,15,0
+cbcd15c3b55cfb05f1b27aa2343f909876f8d3d4,Armin Ronacher,2010-05-24 08:38:28+02:00,Beefed up latex output.  Unfortunately parts look ugly.,7,98,44
+aa654128cf72e5a16a480eb59fc1ad551d39f5d9,Armin Ronacher,2010-05-24 09:03:08+02:00,Added part style,1,36,0
+664c64e0aafeb828911e97d31077c913ae2dd79a,Armin Ronacher,2010-05-24 09:04:24+02:00,Merge branch 'master' of github.com:mitsuhiko/flask,0,15,0
+cc8332e9d99c08b77614e5acd7bd0e6d08dc29b6,Armin Ronacher,2010-05-24 15:08:35+02:00,Added troubleshooting infos. This fixes #44,5,80,5
+9d98ad5e079b88fd9da87e47d55a11e465ab6bb0,Armin Ronacher,2010-05-24 15:24:17+02:00,Documented redirect behaviour. Fixes #42,1,33,0
+ef0dc1800f7558abbefe070f361b97b9161b2452,Armin Ronacher,2010-05-24 18:37:48+02:00,"Added interactive Python docs, fixed part style.",8,215,81
+6c095deda51efb34cd18bd23411ebd6f2a0cdfe0,Armin Ronacher,2010-05-25 08:17:55+02:00,Fixed docstring.  This fixes #45,1,2,2
+133920c83bf78db17631b637b8b2ffabcb26f3d4,Marian Sigler,2010-05-25 01:58:10+08:00,Fix typo in docs.,1,1,1
+7829e6ec98f9c84159dcb2aa9fb210b88d97dd33,Marian Sigler,2010-05-25 05:07:09+08:00,quickstart docs: Use a real value for secret_key to better illustrate how a secret key should look.,1,1,1
+9d19b77acf413de77b39ed1c6d972fb1e5fef1c3,Armin Ronacher,2010-05-26 14:49:01+02:00,"Added lazyloading pattern and explicit chapter links in tutorial.
+
+This fixes #49.",15,147,3
+58285b61fffa1113701686c6bcdbf54ef529e440,Armin Ronacher,2010-05-26 14:50:20+02:00,Merge branch 'master' of github.com:mitsuhiko/flask,0,2,2
+1264c458ae808d306aa03c51f70103e52dca107b,Armin Ronacher,2010-05-26 15:19:08+02:00,Document ways to generate secret keys.  This fixes #47.,1,13,0
+74d458b40c0bdb140e7feab9af407642eb3dcea1,Armin Ronacher,2010-05-26 15:30:06+02:00,Added versionadded for logger,1,2,0
+8d356d7cda963e2fa6437c5a5fef035e13cc80c5,Armin Ronacher,2010-05-27 12:17:07+02:00,Fixed a build error and added a touch icon,4,4,4
+e432d833b5f7b4c27e2dca5d5125bbf78a46327d,Armin Ronacher,2010-05-27 13:30:54+02:00,Fixed stuff I broke,1,0,1
+68278fd78e15e3ef6a591f3f2b6cc700d1e4d6dd,Armin Ronacher,2010-05-18 01:41:07+02:00,Started working on config support,1,39,11
+4d16486132c349cdc7d473ef3c238dfa3f9d5385,Armin Ronacher,2010-05-18 02:36:50+02:00,Improved configuration support.,3,124,10
+35fd6eb22c4dec893770dd5720a51608a06fb8cd,Armin Ronacher,2010-05-27 13:31:22+02:00,Use uppercase for config and support any object.,2,40,31
+672eaf7abf1452750688eeb4e294aca22cd3272a,Armin Ronacher,2010-05-27 13:34:56+02:00,"Merge branch 'config-support' of github.com:mitsuhiko/flask into config-support
+
+Conflicts:
+	flask.py
+	tests/flask_tests.py",0,1,1
+99c6287ce2319224f3a188f75641a9443466ab85,Armin Ronacher,2010-05-27 13:54:40+02:00,appengine -> app engine,3,5,5
+78fc9949aa7055f2e14825cec3c28bc35c42700f,Armin Ronacher,2010-05-27 13:55:36+02:00,Merge branch 'master' into config-support,0,5,5
+182ee31503ea8a9eefd0d7063bd7fbdde991e13b,Armin Ronacher,2010-05-27 17:42:01+02:00,Added chapter about config,5,183,8
+02b916d509422a4703df5110110686288666d3d5,Armin Ronacher,2010-05-27 17:55:57+02:00,Added appfactory pattern,2,74,0
+dfecc86dd315586bec8f5f0838195d03ba7165d3,Armin Ronacher,2010-05-27 21:17:25+02:00,Ported examples over to new config. documented upgrading,17,122,39
+ce6e4cbd73d57cb8c1bba85c46490f71061f865f,Armin Ronacher,2010-05-28 01:18:29+02:00,"0.5 is 0.3 now, why skip numbers?",9,17,17
+d29a9765a5b7014d3a52272f80ee90f4d98cf799,Armin Ronacher,2010-05-28 01:25:19+02:00,HEAD is 0.4dev,1,6,1
+4ca1d0a2ed7639d3f1d2e466a777f7e6b0e8aa0a,Armin Ronacher,2010-05-28 01:25:35+02:00,update setup.py,1,1,1
+6913dc173303de9534c32d716c22b7f371ab6303,Armin Ronacher,2010-05-28 01:30:46+02:00,Added missing changelog entry,1,1,0
+6cb0855e2dd181df5353fc1be9b437c7bc92eb2f,Armin Ronacher,2010-05-28 21:06:39+02:00,Fixed an error reporting bug with flask.Config.from_envvar,3,29,1
+9959ddd3da09f619d467891b194389851cf50367,Armin Ronacher,2010-05-28 21:07:06+02:00,Removed some unused code,1,0,5
+dba42ae968a1cfa6cc6a3ead99ded554a710f041,Armin Ronacher,2010-05-28 21:07:28+02:00,Added missing message,1,1,0
+8e4bcaf57630b5449999594063ffe8dc104e316a,Armin Ronacher,2010-05-28 21:21:28+02:00,Fixed build process,2,10,1
+63caf6e15882292832485372cd86b8265a007f92,Georg Brandl,2010-05-30 01:53:08+08:00,Fix some typos.,1,3,3
+a224fecfd57a77c3f7279102dcc0b332a6858065,Georg Brandl,2010-05-30 02:06:12+08:00,More typo fixes.,9,24,24
+7a4b6088395387abe4127c9650f9cbaac11a0ec4,Simon Sapin,2010-05-31 22:19:42+08:00,"Add Module.app_errorhandler, like Flask.errorhandler.",2,34,1
+50bca8c2d34b4b31ffcc98f6ced44b18de3c78b0,Armin Ronacher,2010-05-31 17:38:05+02:00,Updated AUTHORS file and added missing versionadded,3,14,0
+a6617f44c0416c6877d930b312e1f64df08eca0e,Armin Ronacher,2010-05-31 17:50:31+02:00,Documented _request_ctx_stack. This fixes #57,1,10,0
+707b30749daf407c07b5b265bd892564576ad80a,Armin Ronacher,2010-05-31 17:53:10+02:00,use setup.py test. This fixes #56,2,10,2
+ee69fb58906818f50a2afe71e4ecde7af96b791a,Armin Ronacher,2010-05-31 21:14:27+02:00,Added document about extension development,3,278,1
+216472b43dbb2c2501ab7f8b3e5ae861a082db3f,Dag Odenhall,2010-06-02 03:38:17+08:00,Fix missing plural in documentation,1,1,1
+33e7f2b990e3889d6aa9cffef4a4c9d7d0923698,Armin Ronacher,2010-06-02 18:04:49+02:00,Invoke after_request on exceptions as well. This fixes #59,2,45,0
+b4d576bce249322605094525491ccba091704a35,Armin Ronacher,2010-06-02 18:05:40+02:00,Merge branch 'master' of github.com:mitsuhiko/flask,0,1,1
+937360877bd425543e06decd68a62e086b78bf6b,Armin Ronacher,2010-06-02 18:32:23+02:00,Documented changes in after_request handlers.,1,3,0
+bc00fd1e83f23f57dd6a765b6a4bab2394584ae6,Armin Ronacher,2010-06-03 15:26:07+02:00,Added support for deferred context cleanup. test_client users can now access the context locals after the actual request if the client is used with a with-block. This fixes #59.,5,111,3
+9983e847425621b5e474ae9da6822f1af0b0cc1f,Armin Ronacher,2010-06-03 16:21:23+02:00,Fixed after_request handlers being called twice in some cases and improved logging system,3,51,24
+1ffa295d933c7e0cd1ee14c1592c40f72b9f22bb,Armin Ronacher,2010-06-03 16:25:15+02:00,Added message that setup.py develop is required to build the docs,1,11,3
+f904ef27d3d1f4e03972c34858787294c74c164f,Dag Odenhall,2010-06-05 05:23:19+08:00,Fixing typo in error handling documentation (s/changes are/chances are/),1,1,1
+12c2cb5e12895a0d16b37b7a9e9a96d69a34c36e,Dag Odenhall,2010-06-05 07:55:41+08:00,Typo in docs for Flask.handle_exception,1,1,1
+cc7876f97fbc787ac7702453bdc62541f8ea47f6,Dag Odenhall,2010-06-05 07:59:02+08:00,"Fix in docs for handle_exception: ""A"" before nouns pronounced with an initial consonant sound",1,1,1
+e67903d134039b2452b2a3806e10451491ce768d,Dag Odenhall,2010-06-05 08:03:37+08:00,"Fixing another article error, in handle_http_exception.",1,1,1
+e7a9df784c9edee7742052aadacc2389bf21230c,Dag Odenhall,2010-06-05 13:49:04+08:00,Typo in jQuery pattern docs,1,1,1
+2fb09d07f29aaacac3afd6b64c997e761a292864,Dag Odenhall,2010-06-05 15:06:14+08:00,Another typo in jQuery pattern,1,1,1
+7dae84f0027945bac29b45b63fdc0f795a5a813a,Merlin,2010-06-04 01:48:44+08:00,"Enhanced the nginx deployment subsection of the documentation with working examples.
+
+'tricky' was changed to 'different' to offer a more neutral tone.
+'some' was changed to 'no' and 'not properly' swapped with 'by default' to explain the difference.
+Configuration allows for static serving of media alongside a FastCGI application in a clean declarative manner.
+Tested on nginx 0.7.x and 0.8.x",1,12,11
+88a031ab24b0e7e2a5190f9e48f80f2b21aba1a0,Armin Ronacher,2010-06-05 04:36:04-07:00,"Revert that change, an HTTP is correct from what I know.",1,1,1
+e3de5e6ca39e024874cb465c9047b65373d73b64,Simon Sapin,2010-06-05 21:55:10+08:00,Typo in extension development docs.,1,1,1
+51a5add86d0fa9889b69d51d45d06a2ac4c5df9f,Dag Odenhall,2010-06-06 00:27:38+08:00,Fix inconsistent capitalisation and punctuation in attribute docstrings,1,21,21
+06ed3e1e8888b73794876d39a53382eb45a54fe2,Dag Odenhall,2010-06-06 00:30:11+08:00,Misleading templates path example in docs for open_resource,1,1,1
+f5fb4576577cbedcedba9eb16d9fdace18c9292c,Armin Ronacher,2010-06-07 00:56:02+02:00,Added TESTING flag.  This fixes #58.,3,12,0
+ca0aa9533f7c3a925f1115581872793bdf34bb34,Armin Ronacher,2010-06-07 02:18:31+02:00,"Added an HTML FAQ document, first draft.",2,163,0
+235d693bfc5633aae310ab3dc35e86c8892a0b2b,Armin Ronacher,2010-06-07 02:29:15+02:00,Fixed tabularcolumns,2,3,1
+5a5a4a85bf1cfe783e7009d463aa16368dd5c92f,Armin Ronacher,2010-06-07 07:17:45+02:00,Applied leafstorm's html5faq patch,2,118,74
+d02d01adaa5754ad694b3fee7e32aaa19a502054,Armin Ronacher,2010-06-07 07:40:03+02:00,Fixed an rst error,1,1,1
+1762ea5a2bee7539381c701c4d1534c4af9c2e37,Armin Ronacher,2010-06-07 07:58:10+02:00,Fixed link for good,2,2,2
+54d22f1c5537c957ed555c20e6cd8198346289e5,Simon Sapin,2010-06-07 15:21:30+08:00,"Typo fix.  That is what was meant, right?",1,1,1
+9ecb9edc0644e9c40a0089d680783df5dbffb3d7,florentx,2010-06-07 16:27:44+08:00,Typos,3,3,4
+3e2a2114fd952b489515b63ca0cfa9899455583a,Armin Ronacher,2010-06-07 21:53:36+02:00,into -> Into,1,2,2
+223d44dca8e28c95ffb841118b93b1d36bf9b092,Armin Ronacher,2010-06-07 21:53:58+02:00,Merge branch 'master' of github.com:mitsuhiko/flask,0,3,4
+41f5ad9b1539410507455db6df1424d1a7215b05,Armin Ronacher,2010-06-07 21:54:56+02:00,added images,2,0,0
+540eca16f8a5963a74298f3630523fd9ad49187a,jgraeme,2010-06-10 18:07:14+01:00,"Fix some typos in the docs
+
+Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>",4,9,9
+33a035bb0ec07a4ca92f1397e7caeb7714c57bd6,Armin Ronacher,2010-06-10 23:06:54+02:00,Added security document,3,138,1
+52f38bbf8bee2f7b5aa4fe708dc304cb590d3a0b,Armin Ronacher,2010-06-10 23:20:16+02:00,Fixed a broken sentence,1,2,2
+20c2e53893c202a4555bd7390672ee948fa6b1e0,Armin Ronacher,2010-06-11 01:37:35+02:00,Alcoholified placeholders,2,6,6
+ea72e272a677365a60f1c412f91ebfac58ba13bb,Armin Ronacher,2010-06-14 18:11:52+02:00,Fixed a broken example,1,1,1
+f66c252e47c63d7961b8d2c00acdf5aed11eb851,Andre Wobst,2010-06-15 07:00:17+08:00,typo,1,1,1
+387be22f26b8065d29e311723bb8a50a74248534,Armin Ronacher,2010-06-17 19:01:32+02:00,Added unicode chapter to the docs.  This fixes #67,2,82,0
+e429b69d162b8ec89bbad663ba75599e338bb34f,Armin Ronacher,2010-06-17 19:05:24+02:00,Merge branch 'master' of github.com:mitsuhiko/flask,0,1,1
+03c4bb4abc3bd8120ba3e5ea493447be2ad57711,Simon Sapin,2010-06-18 03:16:35+08:00,Typo fix.,1,1,1
+7083b35e6af836eeeca661f5a1ba9896bc60ebb3,florentx,2010-06-18 09:59:20+02:00,Typo.,1,2,2
+d44b12774879cba83bf33c8ed7733157ab84d778,Armin Ronacher,2010-06-18 16:53:38+02:00,Use a custom logger subclass that uses DEBUG level if in debug mode,2,12,5
+fe35105bec80bbb7cbba1b1d6414612fe85873cd,Armin Ronacher,2010-06-18 17:03:31+02:00,Updated design decisions.  This fixes #63,2,23,0
+7698c3fd14692aeb947d22d0822df061e4312b03,Armin Ronacher,2010-06-18 17:10:31+02:00,This will become 0.4,1,4,4
+1592c53a664c82d9badac81fa0104af226cce5a7,Armin Ronacher,2010-06-18 17:13:32+02:00,Fixed a MANIFEST issue,1,2,0
+528ae04be024ea27881f4c45e23590c011a8ea66,Armin Ronacher,2010-06-18 17:14:43+02:00,HEAD is 0.5-dev,2,6,1
+b3f342e1816e86be3c367c42a6dd7a9c2bd6dcc9,Armin Ronacher,2010-06-19 13:49:01+02:00,"Updated license, relicensed logo under debian-ish license",2,48,0
+7503fc81752d4917fc4a9da808ee6bc37f474ff1,Armin Ronacher,2010-06-19 17:17:50+02:00,Added upgrading notes,4,65,24
+c68cf834330f94e3018d660a6fc967c16e374762,Armin Ronacher,2010-06-22 12:06:41-07:00,Workaround for zip setups for appengine.,1,3,0
+cf29877075a21d5fc4c08780f09bfa9865ad1586,Matt Campbell,2010-06-26 12:04:26+08:00,docs/index.rst: Make alt text more informative.,1,1,1
+14fde0779851866ee00a12b4353f1091d3999428,Matt Campbell,2010-06-26 12:14:45+08:00,Copy edited the front page of the documentation.,1,6,6
+f3dd3da59e269cdf50839d9b0e86fa2849516483,Matt Campbell,2010-06-26 13:27:59+08:00,Copy edited and partially rewrote the foreword.,2,54,54
+f5e533076fb6f0102bcba9ddb24f905045fa6504,Matt Campbell,2010-06-26 14:39:16+08:00,Edited the installation guide.,1,67,72
+4a0c0446da3fc278a5cdc2587191f6df66489d02,Armin Ronacher,2010-06-26 03:07:19-07:00,Added Matt Campell,1,1,0
+67f3f1bac5cfadfa5398e18dd232d279576cf85c,Matt Campbell,2010-06-26 22:43:14+08:00,Track the docs/_themes directory,1,1,0
+824c10c6e4d9c2235d41a2276a0158b1456c3b06,Christopher Grebs,2010-06-27 17:37:04+08:00,Added MongoKit pattern and fixed typo in sqlalchemy pattern,1,133,0
+b5db6bf529706da651389ef51b0fce87a89a47e8,Christopher Grebs,2010-06-27 17:38:39+08:00,now really pushed the fix in sqlalchemy pattern,2,2,1
+87c2c794421f8a39aa98a35f518613cfd38852d5,Christopher Grebs,2010-06-27 22:03:43+08:00,fixed mongokit pattern to show how the flask way to configure hostname and port,1,17,6
+5ede53066fc26d993dd229fe0c54209e700f4c09,Adam Zapletal,2010-06-28 11:10:07+08:00,"Minor tutorial documentation fixes (grammar, etc)",2,16,16
+505c530c9a4c8f1b6b063bcb481a4fdcf3897709,Adam Zapletal,2010-06-28 11:24:37+08:00,"Minor testing documentation fixes (grammar, etc)",1,6,6
+ee5eafa7951bf636bdf345cb072f89947e265867,Adam Zapletal,2010-06-28 11:43:44+08:00,"Error Handling documentation fixes (grammar, etc)",1,17,16
+24754114fc023c92385a1f9bfef141d93a9c8f9b,Adam Zapletal,2010-06-28 11:49:50+08:00,"Minor config documentation fixes (grammar, etc)",1,7,7
+4ed7a923f53c71339251dd1ccd681f424b061bd1,Adam Zapletal,2010-06-28 11:52:32+08:00,"Minor sqlite3 documentation fixes (grammar, etc)",1,4,4
+55040d3efa2d608eb4daa1ed7086e0bd36cfd252,Armin Ronacher,2010-06-28 00:13:48-07:00,Added Adam Zapletal and Christopher Grebs to AUTHORs file.,1,2,0
+f195d9244756b9809bd2b00601b437f3e278b0b9,Armin Ronacher,2010-06-29 01:13:40+02:00,Added proper subdomain support,4,38,2
+7ea1b801cc1f7d09ee18e8d70957c9d34b870700,Armin Ronacher,2010-06-29 01:32:02+02:00,Documented missing attributes.  This fixes #71,1,15,1
+bcd746e8cf0fc5f405c5f32b80517a4390de6fd9,Armin Ronacher,2010-06-29 01:36:06+02:00,Added another testcase for subdomain support,1,11,0
+9373a71c263a63eca3c466cbc5b175ed5d4999d5,Armin Ronacher,2010-06-29 15:25:20+02:00,improved _request_ctx_stack docs,1,30,0
+881aa3ab2dad11edcddd0d5996fea9bdc3132224,Armin Ronacher,2010-06-29 15:59:55+02:00,Fixed an rst syntax error,1,1,1
+f5d2d324b5a1cc9d7ab14ab40488d8b7f4b8c616,Armin Ronacher,2010-06-30 09:49:04+02:00,Mention virtualenv in mod_wsgi deployment docs,1,16,0
+e75322206d2fd1c483494fea7bfba367cdcdd9b2,Armin Ronacher,2010-07-01 00:19:32+02:00,Fixed a broken example in the docs,1,4,1
+d0357b44b02324b85af42052487eab13d0b75f81,Armin Ronacher,2010-07-01 01:22:46+02:00,Added links to Flask-WTF and Flask-SQLAlchemy.  This fixes #73,2,24,1
+bc662a546ed9028d93482f79314e64beae19a1d6,Armin Ronacher,2010-07-01 01:45:39+02:00,Added a section about unicode and editors.  This fixes #74,2,27,1
+3ab318a7ddca819e13d6d161b008b62b6583453e,Armin Ronacher,2010-07-01 12:56:34+02:00,Explained Flask constructor better.  This fixes #70,2,34,1
+a154c87cfca3e21316552b2ec558029f9c96122a,Armin Ronacher,2010-07-02 19:45:26+02:00,Documented exception catching behaviour.  This fixes #75,1,10,0
+ee16a68bbd7caf4c8e79c5d6859f72ad38539bbf,Justin Quick,2010-07-02 14:19:26-04:00,out with the old,1,0,1573
+d0dc89ea802130e8a3a16b4fba73fa10815c09fb,Justin Quick,2010-07-02 14:20:58-04:00,"in with the new. i have the bits in places where i think they should be, now i just need to work on the import scheme layout",8,1574,0
+c4f64c1c475badaeef009ad46846e32a8e5c9b66,Justin Quick,2010-07-02 15:10:32-04:00,working import layout for module,9,78,47
+1a69c7d4bf4d87d00b5fb2551ea39ee7c932768b,Justin Quick,2010-07-02 15:11:02-04:00,"look for json module in the right place. all tests 
+now pass with the new module layout",1,3,3
+b2c7efd0fabcc0514e27d03ed30f5f8af1de1065,Marcus Fredriksson,2010-07-02 00:26:41+08:00,Typo,1,1,1
+7599046d042d1bb3f2db6cdcd6458338802901c4,Armin Ronacher,2010-07-04 11:16:24+02:00,Started working on refactoring Jinja integration,5,54,8
+10fff189813fcc18b0ef49b2028426b21f6325a8,Armin Ronacher,2010-07-04 11:16:43+02:00,Merge branch 'master' of github.com:mitsuhiko/flask,0,1,1
+81148db5b649c2db9b3ea1156d684ecdf6ab9938,Armin Ronacher,2010-07-04 11:20:45+02:00,Merged in changes from justquick,0,834,828
+8798b4b7112fb984bd244c8581ab03ef4a7ba766,Armin Ronacher,2010-07-04 11:25:26+02:00,Merged in changes from master by hand,3,37,12
+dd59d7241d0ebc713d51ab939f53ebd0df8b2dac,Armin Ronacher,2010-07-04 11:26:34+02:00,Ported a typo fix from master,1,1,1
+4f8ee8f12946b224e5003405be99aa4e454bdeee,Armin Ronacher,2010-07-04 11:35:20+02:00,"Added missing comments, fixed setup.py and made tests pass",10,103,12
+88d9315d1955ea4ee99f53e21593a0d1d9047ed0,Armin Ronacher,2010-07-04 11:37:39+02:00,We should now have the same public API as before,2,3,1
+d0c6ad7d287e543fcc941aa2b42557e06b9dc142,Armin Ronacher,2010-07-04 11:56:08+02:00,Added support for conditional responses to send_file,3,36,5
+532347d6adf1da64259f1af91860d5fa27bac9f1,Armin Ronacher,2010-07-04 12:06:29+02:00,phased out shared data middleware in flask for send_file,2,23,12
+fedc06c2950a4c9930082a014d0f8da6ee0193be,Armin Ronacher,2010-07-04 12:14:00+02:00,dropped pkg_resources,3,5,21
+15012af70017962c2a22bc3fe670b9cc50782366,Armin Ronacher,2010-07-04 12:48:37+02:00,Refactored static folder registration,3,60,19
+a38dcd5e2bed1bcf2c1fc319fa9c3bc35e360fe0,Armin Ronacher,2010-07-04 13:42:00+02:00,Added support for loading templates from modules,3,72,30
+a3c9494f67a0e89d44f459dac9eb9d0bc9b9025b,Armin Ronacher,2010-07-04 13:49:58+02:00,Moved templating stuff into a separate module,4,79,62
+665fa2a32b5ff2b1c1887a48ed69329110a555f7,Armin Ronacher,2010-07-04 14:01:56+02:00,More refactoring and moving stuff around,3,15,14
+d67a36cbdb20bfd9cd9931bceb8e6e3c27e9263f,Armin Ronacher,2010-07-04 14:12:29+02:00,Added a testcase for the improved module support,9,45,2
+f694456ff623941020da16839b7edd95248ed26e,Armin Ronacher,2010-07-04 14:13:30+02:00,Documented changes,1,1,0
+31d359694aeb4ef8770e7d2ba14ae479c23006a2,florentx,2010-07-04 19:02:27+08:00,Fix typos,2,7,8
+b551f15b22c1d7d7749901e8d186246fb12038e8,Armin Ronacher,2010-07-04 14:17:29+02:00,Restored 2.5 compatibility{,2,4,0
+f4d8f85a7440f1f533d769c92b27df61e305ce91,Armin Ronacher,2010-07-04 14:17:52+02:00,Merge branch 'module' of github.com:mitsuhiko/flask into module,0,7,8
+2b00ec4017ee6b930bb805c294a459f112e4bc80,Armin Ronacher,2010-07-04 14:19:17+02:00,Small cleanups,2,4,4
+362cf493c42deaa417aa42a402852679ac349a4d,Armin Ronacher,2010-07-04 14:20:20+02:00,Documented the create_jinja_loader removal,1,2,0
+9e1111c2fbc2c7670eb489df0262a90417b96019,Armin Ronacher,2010-07-04 17:21:13+02:00,Fixed JSON availability test.  This fixes #77,1,6,2
+bca1acf1f38b0bb6d461fbbc486d6c95eafe0b30,Armin Ronacher,2010-07-04 19:57:53+02:00,Rewrote becoming big and foreword,2,82,66
+80eb6cfffc3f3fe6e448aa0e26ba1566d4c42917,Armin Ronacher,2010-07-04 20:00:23+02:00,Switched to relative imports in the package,6,21,21
+51a89bf35ec6231d55f5caa8e12484e801f593fe,Armin Ronacher,2010-07-04 20:07:03+02:00,Restored 2.5 compatibility and actual fix for the json problem,4,9,4
+f1cde5bbfcb7f0466ad35511ffe2e31ea57756d6,Armin Ronacher,2010-07-04 20:11:54+02:00,Added more versionadded directives,2,24,0
+8945a97a42d6475b1ee9fcb2689dc65dfce9828f,Armin Ronacher,2010-07-04 20:36:34+02:00,fixed possible security problem in module branch,2,22,1
+09e7b5eb2f3a3da0b09ffe4cd3cad8b028530874,Armin Ronacher,2010-07-04 20:40:58+02:00,Added a chapter for 0.5 in upgrading.rst,1,24,0
+b7109865a352e6bbee55247731136a46e1bab04d,Armin Ronacher,2010-07-04 22:57:49+02:00,Removed circular dependency by going over a proxy.  This is the better solution anyway,1,2,6
+ac13deff401069c3854acca10c926119c6e1cbe0,Armin Ronacher,2010-07-05 10:23:35+02:00,"Re-added support for folder with static files, refactored static file sending",6,36,10
+c34b03e9a677e467ea420d4286d4350ed429a4b8,Armin Ronacher,2010-07-05 10:25:51+02:00,Documented send_from_directory,3,12,0
+df3f8940c30447f28f2ddf2a5f764cf543755f0d,Armin Ronacher,2010-07-05 10:31:18+02:00,Added separate module for testing,4,44,23
+e5d82020384ae527c36424b52612bbe625db9268,Armin Ronacher,2010-07-05 10:32:06+02:00,Added a docstring,1,5,0
+77e2fbf249031a7adb7e745f15ad5645027b5994,Armin Ronacher,2010-07-05 10:37:44+02:00,Added a separate logging module,3,46,16
+56796f0f439a5c0e00d7b3d73a662a2a8e11e7c1,Armin Ronacher,2010-07-05 11:06:29+02:00,More doc changes regarding foreword,1,11,10
+da514b398429653dbd368c6da48c9863d3c2632f,Armin Ronacher,2010-07-06 10:42:36+02:00,Respect the domain for the session cookie.  This fixes #79,2,19,2
+60e143ecb63df6d820dacb1ac6416e0c73714524,Armin Ronacher,2010-07-06 10:43:38+02:00,Documented change regarding the session cookie domain policy in the CHANGES,1,2,1
+77743a5f15ddbc7d826abd4f189217bef88991b6,Armin Ronacher,2010-07-06 12:33:39+02:00,Some documentation improvements,2,49,1
+b7c0e564d4c8ddd82550f2c2958672558c1c657b,Armin Ronacher,2010-07-06 14:42:43+02:00,Added a chapter on configuration options,1,67,0
+34fcd19306dca6359d351bb987b686ca12bb2ab6,Armin Ronacher,2010-07-06 16:07:13+02:00,Added chapter about fabric based deployments,5,219,2
+5dd4e9f318e3bb27967d86f42be64fa839967145,Armin Ronacher,2010-07-06 16:10:49+02:00,Fixed a typo,1,1,1
+4c937be2524de0fddc2d2f7f39b09677497260aa,Armin Ronacher,2010-07-06 16:25:44+02:00,Preparing for release,1,1,1
+3f7ab1797730b8d07497744878d109baa9b235a5,Armin Ronacher,2010-07-06 16:28:47+02:00,HEAD is 0.6-dev,2,6,1
+98ea6579c80fc7754eef433e3d6a0f232b8be75a,Armin Ronacher,2010-07-06 19:10:08+02:00,Preparing for a 0.5.1 bugfix release,1,1,1
+596ae0ced530adef7021c134b3b89e74154d7eb6,Armin Ronacher,2010-07-06 19:11:51+02:00,Updated changelog,1,10,2
+0a93c552cc3318396e44c6ab1282190898ce0012,Armin Ronacher,2010-07-06 19:24:50+02:00,Fixed a template lookup error,3,26,11
+b004324dbbf79177d204507e45b0ec5eb74c7d5a,Armin Ronacher,2010-07-06 19:26:37+02:00,merged with 0.5-maintenance,0,34,12
+16e4d5a6553ff9c89a61c44ddec7da21126b631a,florentx,2010-07-07 02:07:11+08:00,Various typos.,6,7,8
+f1a6fbe250ccf5407b45a398d05bf63bc99c3105,Armin Ronacher,2010-07-06 20:28:48+02:00,send_from_directory > SharedDataMiddleware,1,15,8
+0198313a22a98361947fceb8544c355be676f784,Thomas Schranz,2010-07-08 00:10:29+08:00,"added workaround for json on Google AppEngine
+
+Google AppEngine unfortunately does not offer json/simplejson where
+we would expect it to be, but since they do offer django and django
+comes with simplejson as a frozen dependency, we can import it
+from there.
+
+prior art:
+http://github.com/facebook/python-sdk/blob/master/src/facebook.py#L50",1,6,1
+f3b6d94bf732a913aaf2005ad2656ee31ef8f6c6,Armin Ronacher,2010-07-07 09:19:41-07:00,added Thomas Schranz to AUTHORS,1,1,0
+d12d73263f5d1664a65a42f71f19158b7e07ef2c,Armin Ronacher,2010-07-12 18:04:10+02:00,Reverse order of execution of post-request handlers.  This fixes #82,4,44,2
+a5325686804d5cda46ef2ead7a368ffcceb99690,Armin Ronacher,2010-07-12 18:05:16+02:00,Merge branch 'master' of github.com:mitsuhiko/flask,0,7,1
+5e1b1030e8edecb0c9652f2a406933c049ea2397,Armin Ronacher,2010-07-12 23:04:24+02:00,Added support for automagic OPTIONS,7,74,18
+6e52355eb303e1b47f7b83ddbb94ff432e2df139,Armin Ronacher,2010-07-12 23:58:43+02:00,tiny performance improvement,1,2,2
+ed16ae2183ad44a7ba89aedd331a180455ed0836,Armin Ronacher,2010-07-13 23:14:53+02:00,Always register URL rules.  This fixes #81,3,13,8
+aa3d8398fd1a38b449b64fea4979f358f3c711e3,Armin Ronacher,2010-07-13 23:30:29+02:00,"Config is now available in templates, context processors no longer override keys",5,47,1
+85ff63c32e7237280bff3293481a371fb3da180c,Armin Ronacher,2010-07-13 23:52:55+02:00,Emit correct date.  In theory,2,12,1
+f8f8463f3a0e260604b066de56b0a8c7d3a86db4,Armin Ronacher,2010-07-14 02:50:41+02:00,Documented cookie problem for #80,1,19,0
+b1790cca55956c0cda132ac2fa6a2fb53fd2d009,Armin Ronacher,2010-07-14 10:47:57+02:00,Added MAX_CONTENT_LENGTH config key,4,18,1
+f5b8c082847baa8a902cef22c43a5d50d7a55bdc,Armin Ronacher,2010-07-15 14:35:02+02:00,endpoint is optional for modules.  This fixes #86,4,35,7
+4aeb44567ab46951a534fa2836b392ed21b1532b,Armin Ronacher,2010-07-15 14:35:44+02:00,Documented change,1,3,0
+54ebd88f451cf58b7d07781692fafc465c94305f,Armin Ronacher,2010-07-15 14:39:49+02:00,Documented MAX_CONTENT_LENGTH in the file upload docs and linked to Flask-Uploads,1,20,7
+bc8e021b34a696660410ee60e61664ab969e5cf3,Armin Ronacher,2010-07-15 15:42:27+02:00,Added a note on references to static folders,1,15,0
+e84ca8ed94d36e57f7ab8a547096ce7f61c06f5c,Armin Ronacher,2010-07-15 15:43:17+02:00,Clearified that,1,5,0
+793a56bc8b3a42601f0d3e9b6a1f0f73a9c31c33,Armin Ronacher,2010-07-15 17:01:04+02:00,Added the pocoo styleguide to the documentation,2,201,0
+1202996c634b23f82421753cb7c46a5ccdf7aca2,Armin Ronacher,2010-07-15 18:10:26+02:00,Fixed a template loading bug,1,6,9
+c83b5555f05ebcff450908684bbf793ca561bea2,Armin Ronacher,2010-07-15 18:11:38+02:00,Improved styleguide docs,1,1,1
+82b143f9720ea5837289af32785ce5ef951943d9,Armin Ronacher,2010-07-15 20:03:58+02:00,"Changelog entry for 0.5.2
+
+Conflicts:
+
+	CHANGES",1,8,0
+dbb3620792eda43d5f778c7f9019609f62ad2bb9,Armin Ronacher,2010-07-15 21:22:11+02:00,Fixed an rst error,2,3,2
+b4b2f42f48684fbb4c2d56f4f83d01b2be421a39,Ron DuPlain,2010-07-16 01:18:20+08:00,Warn about SQL injection in the tutorial.,1,7,0
+70dc2b66a0d02a23546ad8d48b7fca1c21997ae6,Armin Ronacher,2010-07-16 13:14:54+02:00,Removed useless script reference.  This fixes #87,2,4,6
+e20534dbf513417cd500ca6c4d473da3c155710b,Armin Ronacher,2010-07-16 13:16:18+02:00,Merge branch 'master' of github.com:mitsuhiko/flask,0,7,0
+6fc1492357a94ab553fe7ef16a7a2235d05f5a1d,Armin Ronacher,2010-07-17 11:36:16+02:00,Added make_response,5,65,1
+90b8df3e4ce762ac4de4a6fabd8fb34532bedd5e,Armin Ronacher,2010-07-17 13:10:50+02:00,Fixed paren in docstring,1,1,1
+a59dfe4a77ecfd8740cf55a719c88eedee07fb5c,Armin Ronacher,2010-07-17 14:02:02+02:00,Added missing template,1,1,0
+e0712b47c6e5bc98f2afd8b0a82cc5005dc58722,Armin Ronacher,2010-07-17 14:39:28+02:00,Added support for signals,10,212,4
+c360f005c354f406735f4119d057a75b24e7baf1,Armin Ronacher,2010-07-17 15:25:53+02:00,Added signal documentation,3,208,0
+91e9632a379ebdd778c229a6da86d11140fa7f17,Armin Ronacher,2010-07-17 15:26:35+02:00,Moved wsgi_app down to a more logical location,1,41,41
+a3a72e2d8d8df53164689fd84a5db2c6cd04f28a,Armin Ronacher,2010-07-17 15:39:24+02:00,Added middlewares to quickstart.  This fixes #88,3,22,2
+e5008386b1a7e0ef3ebb5a4082bf2176d7169ab9,Armin Ronacher,2010-07-17 15:41:05+02:00,Added docs on use_evalex.  This fixes #90,1,5,0
+b6cae028f7a2c77108e5ef91e34c285a9ae7ad81,Armin Ronacher,2010-07-17 15:53:32+02:00,Removed useless instanciation,1,0,1
+405d4492e41b50f204d7e7d55aa0ac8f11edda1a,Armin Ronacher,2010-07-17 15:56:58+02:00,Documented more changes,2,4,1
+3ebc97a7809a15ae5f362d1330552db1efdec525,Armin Ronacher,2010-07-17 16:02:21+02:00,Fixed a typo in quickstart,1,1,1
+97d2a198e216b29be5533dfba81525481bc9c1e5,Armin Ronacher,2010-07-17 16:05:06+02:00,Added fallback for docs,1,14,0
+5d011c356dfc659a4c2ef66e8c847d489aef4e9c,Armin Ronacher,2010-07-17 16:12:21+02:00,Fixed fallback,1,1,0
+2b103134cf165ba453d5492e1a73b57b1e5bef1e,Armin Ronacher,2010-07-17 17:09:01+02:00,Fixed command,1,1,1
+05519a85da1b26d73bc9215aa7f5cd357404f397,Armin Ronacher,2010-07-17 17:19:10+02:00,Fixing submodules,1,1,0
+2a0e71f08140fe5c8d32ffed350ba403101f27cc,Armin Ronacher,2010-07-17 17:22:10+02:00,Fixed a typo in an example in the docs,1,1,1
+fd06bcfbf03efd496697083666953748ef3fe7a3,Armin Ronacher,2010-07-18 00:51:20+02:00,Added notes on 3.x,1,5,0
+4a2d2ba3b8259165a97dc80890547f97d7e35ff5,Armin Ronacher,2010-07-18 01:30:28+02:00,Added templating docs.  This basically fixes #92,4,200,1
+0d9b6347d6c77762fb888c067e91e428d65b8601,Armin Ronacher,2010-07-18 10:30:58+02:00,Fixed two typos in the pattern documentation.  Thanks Ricky de Laveaga,2,2,2
+27d28dcef4cee8765dcd7a567689d35a41ddcd75,Armin Ronacher,2010-07-18 20:43:50+02:00,Added Session again to the public API because existing code might import it,1,1,0
+2912ff6f6e85983c372e1bc481337f3fdf6c7b9d,Armin Ronacher,2010-07-18 20:44:07+02:00,Added some whitespace,1,1,0
+cd4833222eccf7e70380a42b69d5e766a84a6b63,Armin Ronacher,2010-07-18 20:57:02+02:00,Rewrote parts of the foreword and becoming big section,2,40,34
+9991cfa96b8babe1c59bb4b3548df76e01af07f6,Armin Ronacher,2010-07-18 21:02:56+02:00,Added notes for Python 3,1,24,0
+8837678a088ad4ec710d78de3c30f87be2d13de6,Armin Ronacher,2010-07-18 21:06:46+02:00,Changed extensiondev docs,1,10,2
+e269c8eb727bdf72a0ca22e42b895dd37f3670c8,Armin Ronacher,2010-07-18 21:07:45+02:00,Removed unused LICENSE file.  The doc license is covered by the project's LICENSE file,1,0,28
+cb660cd1f1a30f67d8ea2b305d635ce573d239c6,Armin Ronacher,2010-07-18 21:08:58+02:00,Fixed a typo in the html faq,1,1,1
+559d2810d7b6f2938cac402636cc689016f28520,Armin Ronacher,2010-07-18 21:58:18+02:00,Expanded the security docs to mention unquoted attributes as dangerous,2,26,1
+c0abdc4fa5bd63d38974a0c8f28d4b3ba6ca5eb3,Armin Ronacher,2010-07-18 22:01:11+02:00,Interlinked design docs better,2,9,0
+3b0eb0f3ca45786135cacfc380bfdb51e7744e46,Armin Ronacher,2010-07-20 10:12:58+01:00,Added notes on proxies,2,63,18
+c5b1755317c7bdfc20f4395a9a29a83b5b9cfd43,Armin Ronacher,2010-07-20 13:48:13+01:00,Added testcase for modified URL encodings,1,15,0
+05108673685c709c9929ab0e76451b74d51fb79b,Armin Ronacher,2010-07-20 15:05:01+01:00,Documented blinker 1.1 changes,1,21,4
+80268a408b981254bbf2bd318aaade9a21a281ef,Armin Ronacher,2010-07-20 15:05:10+01:00,Documented proxy fix,2,36,0
+b49afa21ade898061d279ea20ba964d7e583c419,Armin Ronacher,2010-07-20 15:09:51+01:00,Removed temp subscription contextmanager in blinker tests to support upcoming api improvements better,1,8,2
+7680d52f42a562eda2e3f75b34118abb08d93414,Armin Ronacher,2010-07-23 13:29:21+01:00,Added support for subdomain bound modules,4,35,2
+dcf5dff414f2f4b9b24047510d3fa7ac643e971f,Armin Ronacher,2010-07-23 14:58:51+01:00,Updatd an intersphinx link,1,1,2
+3adc9de5ec39e65f64bcd684613c64b29131a64e,Armin Ronacher,2010-07-23 14:59:10+01:00,Updated docs for extension approval process,1,40,0
+66c13955895c7afb849513d9d0ff0f7f8361c511,Armin Ronacher,2010-07-23 15:21:08+01:00,Fixed wording,1,2,2
+f4bfae622b5515ebde795fb71e3cc128cc0d5ead,Armin Ronacher,2010-07-23 15:41:39+01:00,Added flaskext tester,1,97,0
+cb79b58053c34dc222c84584da506650ec64ee6f,Armin Ronacher,2010-07-23 15:41:58+01:00,Added ali to authors,1,1,0
+b2fb2245f1a115c65cba42c6c34f0eae30da4c6c,Armin Ronacher,2010-07-23 15:42:33+01:00,Fixed a word in the docs,1,1,1
+63114529ed51213832c9ada0b6216ec9e8e22052,Armin Ronacher,2010-07-23 17:49:03+01:00,good -> bad,1,1,1
+a7d83a9f8008a58813e4495dd8b00d14214a51ad,Armin Ronacher,2010-07-25 14:59:31+02:00,Approved extensions must not be GPL,1,2,3
+a993a314fe7be148747cf804167d45f2ea8bf18e,Ali Afshar,2010-07-25 18:45:10+08:00,Removed unused import,1,1,1
+3a80ecc66057d97e3a0ceb40e99ea7bde035381b,Armin Ronacher,2010-07-25 17:33:45+02:00,Improved script for automatic extension testing,2,216,33
+fee5bdafe84bfcec492c2643544373c71f1e82a8,Armin Ronacher,2010-07-25 17:34:47+02:00,Code cleanup,2,1,3
+498db01310289cdb9cf771b4432648096628cb21,Armin Ronacher,2010-07-25 17:34:55+02:00,Merge branch 'master' of github.com:mitsuhiko/flask,0,1,1
+312dfb43735dfaf063f58f8115c61331990302f6,Armin Ronacher,2010-07-25 18:51:28+02:00,Mentioned zip_safe,1,2,0
+9de61ea980edbd8fc3e2c459d3276b8f23d1428c,Armin Ronacher,2010-07-25 18:51:36+02:00,Reviewed all extensions and wrote down notes.,3,270,0
+4c5c644fbf8e94096eb1a61d76855a98687cdb89,Armin Ronacher,2010-07-25 18:56:14+02:00,Renamed rejected to unlisted,1,0,0
+2401d86008bb68f5f0368fbfe8d5797a8ef75903,Armin Ronacher,2010-07-25 19:00:00+02:00,Fixed formatting,3,47,47
+c6f55b5dbd1c5f08e56aa13b61b9b9912b5b4f21,Armin Ronacher,2010-07-25 19:02:02+02:00,Consistency,2,8,8
+385e67422ba1d590cf65e81dc7a85c916ada62e8,Armin Ronacher,2010-07-25 19:44:08+02:00,Reviewed 0.9.1 :),1,1,1
+e3f440d80ffedcc2adb0f058e06a3ee6c56710d9,Armin Ronacher,2010-07-25 23:19:00+02:00,Approved Flask-Creole,1,12,0
+54c126e7872b30dc9e5e28303eceea9e827e0231,Armin Ronacher,2010-07-25 23:25:15+02:00,"Removed Flask-Creole from the listed file, it's in approved already",1,0,12
+d455135338d84dfac2a2b98f52cde1d43dd87681,Armin Ronacher,2010-07-25 23:46:24+02:00,Added a workaround for py.test,1,11,2
+63a37b75aca15085e685d99f8b7a2e79c83e1f57,Armin Ronacher,2010-07-26 00:36:09+02:00,Improved extension test runner,1,23,5
+140fc45ebd052ea07492c068e45d755d4b42c65c,Armin Ronacher,2010-07-26 00:59:41+02:00,Added another workaround.  the extension tester is now a pile of hacks,1,4,0
+8bd8b014a8393d4b94e6fd192b64e3a2d2f65fce,Armin Ronacher,2010-07-26 02:30:52+02:00,Small fixes in the extension tester,1,5,2
+4ab21cd7489e6a7b4e64beda7d8e44fd93557964,Armin Ronacher,2010-07-26 02:30:58+02:00,Approved Flask-Genshi,1,10,0
+c468ad0bfe8608d28e65a0a2c8ba1093dbd7167c,Armin Ronacher,2010-07-26 02:37:16+02:00,Forgot to unlist flask-genshi,1,0,13
+6aeb6a09aff3115466eb39253ec236ec98348d9e,Armin Ronacher,2010-07-26 02:52:05+02:00,Added standard dep on py because some extensions might use py.test and the default available version is on the wrong python path,1,3,1
+89ed7e616e8b1bd16285703e44ecb40c953671cb,Armin Ronacher,2010-07-26 13:20:46+02:00,Approved Flask-Script,2,16,16
+27ce5cc0a139d06ed83bd60ace20ad38cdf4ec8f,Armin Ronacher,2010-07-26 16:02:36+02:00,Added another rule to the approval list.  2.5-2.7 compatibility,1,2,0
+3da165f2f56fe7f1b71242157fd4d02d3e37128f,Armin Ronacher,2010-07-26 17:14:17+02:00,Fixed typo,1,1,1
+2594602076e223f237a5cf4d0f8742ebc3ad3ab1,Armin Ronacher,2010-07-26 17:14:25+02:00,Approved Flask-CouchDB,2,12,16
+c18f032a822fa6db560c440d7faa7c615826aa30,Armin Ronacher,2010-07-27 01:29:21+02:00,Added a tox-test command that runs Flask tests with tox,3,9,0
+28f7c1956bc60a81be9a9e5935d72d25b444f3f3,Armin Ronacher,2010-07-27 14:10:42+02:00,Approved WTF and Testing,2,22,33
+5cadd9d34da46b909f91a5379d41b90f258d5998,Armin Ronacher,2010-07-27 14:38:59+02:00,Picked codename for 0.6,1,1,1
+16b101edb6c10a984b0f2960feeeca5a458845a1,Armin Ronacher,2010-07-27 14:40:21+02:00,HEAD is 0.7-dev,2,7,1
+3e297e89d895262e4cf18bfa860f83fbe4b86a61,Armin Ronacher,2010-07-27 17:15:20+02:00,Approved Flask-Themes and Flask-Uploads,2,22,22
+750c3a07d8a82bde3cf8d60c7ef29e26ef149a1c,Armin Ronacher,2010-07-27 18:46:29+02:00,Added artwork to MANIFEST.in,1,1,0
+3561a398b1a9ad4cfe7f056fe10811930f54b502,Aku Kotkavuo,2010-07-28 05:27:10+08:00,Made one sentence easier to parse in docs/foreword,1,2,2
+4cd5201cdd03e14edbceb24620717bbe82300524,Ronny Pfannschmidt,2010-07-26 14:45:05+08:00,"use custom tox file named tox-flask-test.ini, dont delete the real tox.ini",1,3,5
+0906f7d58930e047f7ec67290997b552e587e219,florentx,2010-07-28 00:19:47+08:00,Typos.,2,6,7
+8a14a875d26dc0923c4c52ed1e56eb112d81e723,Armin Ronacher,2010-07-28 01:26:15+02:00,Added the upcoming bugfix release to the mainbranches CHANGES,1,4,0
+dbf55de7e8bfcf7cde967aa72ea006b764d484ac,Armin Ronacher,2010-07-28 01:25:08+02:00,"Fixed an issue where the default `OPTIONS` response was
+not exposing all valid methods in the `Allow` header.
+
+This fixes #97
+
+Signed-off-by: Armin Ronacher <armin.ronacher@active-4.com>",3,33,4
+8e7d29176a191bddf819fab9ef629491a769d797,Armin Ronacher,2010-07-28 01:28:31+02:00,Merge branch 'master' of github.com:mitsuhiko/flask,0,11,14
+738c66eff30d1a5f5672c22a32a02c29d9c38a2b,Armin Ronacher,2010-07-28 01:32:39+02:00,Fixed submodules.  Once again -.-,1,1,0
+43ae651c3091a9c1252726310abe5c9116ee2e53,Aku Kotkavuo,2010-07-28 07:10:31+08:00,Proofread docs/quickstart,1,79,82
+952967fcab0ffccc6b67485e8eed994a69d38d03,Armin Ronacher,2010-07-28 01:39:25+02:00,"In 0.7, make_default_options_response is a public API",2,12,2
+ed1b34c7249cc79c3287e5becbdfeca6d2155014,Armin Ronacher,2010-07-29 11:03:56+02:00,Approved Flask-Mail,1,11,0
+801918603cb075f96ff6c08a6fc6fb165f1eecda,Stephane Wirtel,2010-07-29 18:51:54+08:00,Remove an unused function,1,1,1
+778e44e39eb42ff6cbee376ce40d1a52a25cb0ce,Armin Ronacher,2010-07-30 00:03:06+02:00,Improved error message for configuration files,2,17,1
+138faab1213bd4010d8cfeb505b0e5f9aafd1345,Armin Ronacher,2010-07-30 00:03:25+02:00,Merge branch 'master' of github.com:mitsuhiko/flask,0,1,1
