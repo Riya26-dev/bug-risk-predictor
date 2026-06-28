@@ -1,0 +1,11 @@
+AI Code Review / Bug Risk Predictor
+========================================
+
+Dataset Size : 500
+
+Selected Model : Logistic Regression
+
+Accuracy : 0.7100
+Precision: 0.5000
+Recall   : 0.0345
+F1 Score : 0.0645
